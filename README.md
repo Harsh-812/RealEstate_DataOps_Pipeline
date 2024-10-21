@@ -12,3 +12,6 @@ Developed a scalable data pipeline using Airflow on EC2 for streamlined ETL work
 
 <img width="1285" alt="image" src="https://github.com/user-attachments/assets/d005a297-a1d0-4ca1-948b-26706369ce75">
 
+
+## Click here to view the interactive Tableau Dashboard - [Link](https://public.tableau.com/app/profile/harshitha.chandrashekar/viz/RealEstateMarketOverview/Dashboard1)
+<img width="1201" alt="image" src="https://github.com/user-attachments/assets/1aea599d-4d04-4a68-ac1d-bf22707a5342">
