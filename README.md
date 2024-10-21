@@ -10,34 +10,20 @@ This project aims to **automate the process** of extracting and transforming **r
 2. **Data Storage and Ingestion**:
    - **Amazon S3**: Used for both raw data storage (landing zone) and processed data storage (intermediate storage).
 
-3. **Data Transformation and Processing**:
-   - **Apache Spark** or **Amazon EMR**:
-     - For distributed data processing and transformation.
-   - **AWS Lambda**:
-     - To trigger data transformations and automate workflows.
+3. **Data Transformation and Processing**: **Amazon EMR**, **AWS Lambda**
+     - For distributed data processing and transformation and to trigger data transformations and automate workflows.
 
-4. **Data Warehouse**:
-   - **Snowflake**:
+4. **Data Warehouse**: **Snowflake**
      - Used as the central data warehouse to store and analyze transformed data.
      - External stages allow for easy import of data from S3.
      - Provides **high-performance querying** and supports **semi-structured** and **structured** data formats.
 
-5. **Data Visualization and Reporting**:
-   - **Tableau**:
+5. **Data Visualization and Reporting**: **Tableau**
      - Used for creating interactive dashboards to visualize real estate trends and market insights.
      - Integrated with Snowflake for data analysis and visualization.
 
-6. **Orchestration**:
-   - **Apache Airflow**:
+6. **Orchestration**: **Apache Airflow**
      - To schedule and manage end-to-end workflows. Airflow ensures that tasks like data extraction, processing, and loading into Snowflake happen automatically and in sequence.
-
-7. **Monitoring and Logging**:
-   - **CloudWatch** (if using AWS):
-     - To monitor data pipelines and workflows for errors and performance issues.
-
-8. **Security and Permissions**:
-   - **AWS IAM (Identity and Access Management)** and **Snowflake Roles**:
-     - To manage permissions and control access to data.
 
 ### **Process Description:**
 
