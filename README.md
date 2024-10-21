@@ -1,4 +1,4 @@
-# RealEstate_DataOps_Pipeline
+# REAL ESTATE DATA ANALYTICS PIPELINE
 
 ### **Overview:**
 This project aims to **automate the process** of extracting and transforming **real estate data** to support **market analysis** on Tableau. By leveraging cloud-based services, the pipeline handles storage and transformation of large data. The ultimate goal is to streamline data processing to provide insights on **real estate trends** using a data pipeline.
