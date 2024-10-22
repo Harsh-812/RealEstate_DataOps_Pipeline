@@ -1,9 +1,9 @@
 # REAL ESTATE DATA ANALYTICS PIPELINE
 
-### **Overview:**
+## Overview
 This project aims to **automate the process** of extracting and transforming **real estate data** to support **market analysis** on Tableau. By leveraging cloud-based services, the pipeline handles storage and transformation of large data. The ultimate goal is to streamline data processing to provide insights on **real estate trends** using a data pipeline.
 
-### **Process Description:**
+## Process Description
 
 1. **Data Extraction:**
    - The **first step** involves **extracting real estate data** from the **Redfin API**. The data extracted includes details like property prices, locations, property types, and other key features relevant to the real estate market.
