@@ -3,28 +3,6 @@
 ### **Overview:**
 This project aims to **automate the process** of extracting and transforming **real estate data** to support **market analysis** on Tableau. By leveraging cloud-based services, the pipeline handles storage and transformation of large data. The ultimate goal is to streamline data processing to provide insights on **real estate trends** using a data pipeline.
 
-### **Tools and Technologies Used:**
-
-1. **Data Extraction**: **Redfin API** for gathering real estate data
-
-2. **Data Storage and Ingestion**:
-   - **Amazon S3**: Used for both raw data storage (landing zone) and processed data storage (intermediate storage).
-
-3. **Data Transformation and Processing**: **Amazon EMR**, **AWS Lambda**
-     - For distributed data processing and transformation and to trigger data transformations and automate workflows.
-
-4. **Data Warehouse**: **Snowflake**
-     - Used as the central data warehouse to store and analyze transformed data.
-     - External stages allow for easy import of data from S3.
-     - Provides **high-performance querying** and supports **semi-structured** and **structured** data formats.
-
-5. **Data Visualization and Reporting**: **Tableau**
-     - Used for creating interactive dashboards to visualize real estate trends and market insights.
-     - Integrated with Snowflake for data analysis and visualization.
-
-6. **Orchestration**: **Apache Airflow**
-     - To schedule and manage end-to-end workflows. Airflow ensures that tasks like data extraction, processing, and loading into Snowflake happen automatically and in sequence.
-
 ### **Process Description:**
 
 1. **Data Extraction:**
@@ -67,11 +45,34 @@ This project aims to **automate the process** of extracting and transforming **r
 ### Click here to view the interactive Tableau Dashboard - [Link](https://public.tableau.com/app/profile/harshitha.chandrashekar/viz/RealEstateMarketOverview/Dashboard1)
 <img width="1201" alt="image" src="https://github.com/user-attachments/assets/1aea599d-4d04-4a68-ac1d-bf22707a5342">
 
-#### Data Interpretation
+## Data Interpretation
 - Home inventory increased from 2012 to 2018, peaking at over 15 million homes. It then declined sharply in 2020 and 2021, likely due to market factors. Inventory slightly recovered in 2022 and 2023 but dropped again in 2024.
 - Florida leads with 9.88 million homes (10.09%), followed by California and Texas. These three states dominate the housing market. Pennsylvania, Ohio, and North Carolina rank in the middle with 3.4 to 3.5 million homes.
 - Median sale prices rose steadily until 2022, peaking at over 1 billion USD. However, in 2024, prices dropped to around 900 million USD, indicating a cooling market.
 - Home sales peaked in 2021 but declined sharply in 2022 and beyond. Single-family homes dominate sales, with townhouses and multi-family properties representing smaller portions.
+
+### **Tools and Technologies Used:**
+
+1. **Data Extraction**: **Redfin API** for gathering real estate data
+
+2. **Data Storage and Ingestion**:
+   - **Amazon S3**: Used for both raw data storage (landing zone) and processed data storage (intermediate storage).
+
+3. **Data Transformation and Processing**: **Amazon EMR**, **AWS Lambda**
+     - For distributed data processing and transformation and to trigger data transformations and automate workflows.
+
+4. **Data Warehouse**: **Snowflake**
+     - Used as the central data warehouse to store and analyze transformed data.
+     - External stages allow for easy import of data from S3.
+     - Provides **high-performance querying** and supports **semi-structured** and **structured** data formats.
+
+5. **Data Visualization and Reporting**: **Tableau**
+     - Used for creating interactive dashboards to visualize real estate trends and market insights.
+     - Integrated with Snowflake for data analysis and visualization.
+
+6. **Orchestration**: **Apache Airflow**
+     - To schedule and manage end-to-end workflows. Airflow ensures that tasks like data extraction, processing, and loading into Snowflake happen automatically and in sequence.
+
   
 ### **Project Outcomes:**
 - The pipeline successfully handles large data, ensuring reliable data ingestion, transformation, and analysis.
