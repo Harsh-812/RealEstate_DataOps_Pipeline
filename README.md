@@ -45,13 +45,13 @@ This project aims to **automate the process** of extracting and transforming **r
 ### Click here to view the interactive Tableau Dashboard - [Link](https://public.tableau.com/app/profile/harshitha.chandrashekar/viz/RealEstateMarketOverview/Dashboard1)
 <img width="1201" alt="image" src="https://github.com/user-attachments/assets/1aea599d-4d04-4a68-ac1d-bf22707a5342">
 
-## Data Interpretation
+### Data Interpretation
 - Home inventory increased from 2012 to 2018, peaking at over 15 million homes. It then declined sharply in 2020 and 2021, likely due to market factors. Inventory slightly recovered in 2022 and 2023 but dropped again in 2024.
 - Florida leads with 9.88 million homes (10.09%), followed by California and Texas. These three states dominate the housing market. Pennsylvania, Ohio, and North Carolina rank in the middle with 3.4 to 3.5 million homes.
 - Median sale prices rose steadily until 2022, peaking at over 1 billion USD. However, in 2024, prices dropped to around 900 million USD, indicating a cooling market.
 - Home sales peaked in 2021 but declined sharply in 2022 and beyond. Single-family homes dominate sales, with townhouses and multi-family properties representing smaller portions.
 
-### **Tools and Technologies Used:**
+## Tools and Technologies Used
 
 1. **Data Extraction**: **Redfin API** for gathering real estate data
 
