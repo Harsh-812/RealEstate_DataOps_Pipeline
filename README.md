@@ -39,7 +39,7 @@ This project aims to **automate the process** of extracting and transforming **r
      - **Average property prices** over time.
      - **Price distribution** across different regions.
      - **Market trends** based on features such as property type, square footage, and location.
-   - Power BI's integration with **Snowflake** allows for **real-time data analysis**, ensuring the visualizations are always up-to-date with the latest data.
+   - Tableau's integration with **Snowflake** allows for **real-time data analysis**, ensuring the visualizations are always up-to-date with the latest data.
 
 
 ### Click here to view the interactive Tableau Dashboard - [Link](https://public.tableau.com/app/profile/harshitha.chandrashekar/viz/RealEstateMarketOverview/Dashboard1)
@@ -58,8 +58,8 @@ This project aims to **automate the process** of extracting and transforming **r
 2. **Data Storage and Ingestion**:
    - **Amazon S3**: Used for both raw data storage (landing zone) and processed data storage (intermediate storage).
 
-3. **Data Transformation and Processing**: **Amazon EMR**, **AWS Lambda**
-     - For distributed data processing and transformation and to trigger data transformations and automate workflows.
+3. **Data Processing**: **Amazon EMR**
+     - For distributed data processing.
 
 4. **Data Warehouse**: **Snowflake**
      - Used as the central data warehouse to store and analyze transformed data.
